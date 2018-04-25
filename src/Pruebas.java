@@ -22,6 +22,7 @@ public class Pruebas {
 		System.out.println("x");
 		bt.remove(2);
 		bt.print();
+		System.out.println(bt.findMin());
 	}
 
 }

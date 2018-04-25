@@ -120,17 +120,20 @@ public class BinarySearchTree<T extends Comparable<T>> {
 //----------------------------------------------------//
     public T findMin(){
         if(this.getRoot()==null)
-        return null;
+            return null;
         else
-            return finMin(this.root);
+            return findMin(this.root);
+
     }
 
 
-    private T finMin(TreeNode node){
-        while(node.getLeft()!=null){
-            return finMin(node.getLeft());
-        }return (T) node.getLeft().getData();
+    private T findMin(TreeNode node){
+        if(node.getLeft()!=null){
+            return findMin(node.getLeft());
+        }else{
+            return (T) node.getData();
 
+        }
     }
 //----------------------------------------------------//
     public void print()
