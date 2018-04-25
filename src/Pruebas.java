@@ -9,6 +9,17 @@ public class Pruebas {
 		arbol.insertar(1, 1);
 		arbol.insertar(9, "asdlkj");
 		arbol.insertar(5, 5);
+
+
+		BinarySearchTree bt = new BinarySearchTree();
+		bt.insert(1);
+		bt.insert(2);
+		bt.insert(3);
+		bt.insert(4);
+		bt.insert(5);
+		bt.print();
+
+
 	}
 
 }
