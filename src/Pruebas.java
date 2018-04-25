@@ -24,6 +24,7 @@ public class Pruebas {
 		bt.print();
 		System.out.println(bt.findMin());
 		System.out.println(bt.findMax());
+		bt.ss();
 	}
 
 }
