@@ -12,7 +12,7 @@ public class Pruebas {
 		arbol.insertar(5, 5);
 
 
-		BinarySearchTree bt = new BinarySearchTree();
+		BinarySearchTree<Integer> bt = new BinarySearchTree<Integer>();
 		bt.insert(1);
 		bt.insert(2);
 		bt.insert(3);
