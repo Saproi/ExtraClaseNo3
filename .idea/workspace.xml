@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e983781-be27-4ee8-948f-5801d4b47326" name="Default" comment="" />
+    <list default="true" id="9e983781-be27-4ee8-948f-5801d4b47326" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +18,8 @@
       <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="139" column="20" lean-forward="false" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+            <state relative-caret-position="465">
+              <caret line="179" column="5" lean-forward="true" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
               <folding>
                 <element signature="e#229#230#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -27,9 +30,8 @@
                 <element signature="method#insert#1;class#BinarySearchTree#0" expanded="false" />
                 <element signature="e#2708#2709#0" expanded="true" />
                 <element signature="e#2762#2763#0" expanded="true" />
-                <element signature="e#4164#4165#0" expanded="true" />
-                <element signature="e#4196#4197#0" expanded="true" />
-                <element signature="method#print#1;class#BinarySearchTree#0" expanded="false" />
+                <element signature="e#4170#4171#0" expanded="true" />
+                <element signature="e#4202#4203#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/BinarySearchTree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/Pruebas.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -293,7 +295,7 @@
       <updated>1524627968931</updated>
       <workItem from="1524627973131" duration="8725000" />
       <workItem from="1524641122258" duration="25000" />
-      <workItem from="1524641485142" duration="1026000" />
+      <workItem from="1524641485142" duration="1605000" />
     </task>
     <task id="LOCAL-00001" summary="Esta es la informacion que nosotros teniamos">
       <created>1524629526256</created>
@@ -327,7 +329,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9776000" />
+    <option name="totallyTimeSpent" value="10355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -433,9 +435,8 @@
             <element signature="method#insert#1;class#BinarySearchTree#0" expanded="false" />
             <element signature="e#2708#2709#0" expanded="true" />
             <element signature="e#2762#2763#0" expanded="true" />
-            <element signature="e#4164#4165#0" expanded="true" />
-            <element signature="e#4196#4197#0" expanded="true" />
-            <element signature="method#print#1;class#BinarySearchTree#0" expanded="false" />
+            <element signature="e#4170#4171#0" expanded="true" />
+            <element signature="e#4202#4203#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -495,9 +496,8 @@
             <element signature="method#insert#1;class#BinarySearchTree#0" expanded="false" />
             <element signature="e#2708#2709#0" expanded="true" />
             <element signature="e#2762#2763#0" expanded="true" />
-            <element signature="e#4164#4165#0" expanded="true" />
-            <element signature="e#4196#4197#0" expanded="true" />
-            <element signature="method#print#1;class#BinarySearchTree#0" expanded="false" />
+            <element signature="e#4170#4171#0" expanded="true" />
+            <element signature="e#4202#4203#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -578,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="139" column="20" lean-forward="false" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+        <state relative-caret-position="465">
+          <caret line="179" column="5" lean-forward="true" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
           <folding>
             <element signature="e#229#230#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
@@ -590,9 +590,8 @@
             <element signature="method#insert#1;class#BinarySearchTree#0" expanded="false" />
             <element signature="e#2708#2709#0" expanded="true" />
             <element signature="e#2762#2763#0" expanded="true" />
-            <element signature="e#4164#4165#0" expanded="true" />
-            <element signature="e#4196#4197#0" expanded="true" />
-            <element signature="method#print#1;class#BinarySearchTree#0" expanded="false" />
+            <element signature="e#4170#4171#0" expanded="true" />
+            <element signature="e#4202#4203#0" expanded="true" />
           </folding>
         </state>
       </provider>
