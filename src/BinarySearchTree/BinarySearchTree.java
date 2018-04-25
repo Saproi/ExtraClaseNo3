@@ -135,6 +135,24 @@ public class BinarySearchTree<T extends Comparable<T>> {
         }
     }
 //----------------------------------------------------//
+public T findMax(){
+    if(this.getRoot()==null)
+        return null;
+    else
+        return findMax(this.root);
+
+}
+
+
+    private T findMax(TreeNode node){
+        if(node.getRight()!=null){
+            return findMax(node.getRight());
+        }else{
+            return (T) node.getData();
+
+        }
+    }
+//----------------------------------------------------//
     public void print()
     {
         print(this.root);
