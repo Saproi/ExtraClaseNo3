@@ -176,6 +176,6 @@ public class BinarySearchTree<T extends Comparable<T>> {
     	int R = 0;
     	T x = this.findMin();
         T y = this.findMax();
-    	R = (T) x.getData() - ((TreeNode<T>) y).getData();
+    	//R = x.getData() - y.getData();
     }
 }
