@@ -23,6 +23,7 @@ public class Pruebas {
 		bt.remove(2);
 		bt.print();
 		System.out.println(bt.findMin());
+		System.out.println(bt.findMax());
 	}
 
 }

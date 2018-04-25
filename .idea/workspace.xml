@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e983781-be27-4ee8-948f-5801d4b47326" name="Default" comment="" />
+    <list default="true" id="9e983781-be27-4ee8-948f-5801d4b47326" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Pruebas.java" afterPath="$PROJECT_DIR$/src/Pruebas.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,21 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pruebas.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Pruebas.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pruebas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+            <state relative-caret-position="278">
+              <caret line="139" column="20" lean-forward="true" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
               <folding>
                 <element signature="e#229#230#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -37,8 +40,8 @@
                 <element signature="method#insert#1;class#BinarySearchTree#0" expanded="false" />
                 <element signature="e#2708#2709#0" expanded="true" />
                 <element signature="e#2762#2763#0" expanded="true" />
-                <element signature="e#3799#3800#0" expanded="true" />
-                <element signature="e#3831#3832#0" expanded="true" />
+                <element signature="e#4164#4165#0" expanded="true" />
+                <element signature="e#4196#4197#0" expanded="true" />
                 <element signature="method#print#1;class#BinarySearchTree#0" expanded="false" />
               </folding>
             </state>
@@ -105,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/BinarySearchTree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/Pruebas.java" />
         <option value="$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/Pruebas.java" />
       </list>
     </option>
   </component>
@@ -301,7 +304,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524627968931</updated>
-      <workItem from="1524627973131" duration="7399000" />
+      <workItem from="1524627973131" duration="8725000" />
     </task>
     <task id="LOCAL-00001" summary="Esta es la informacion que nosotros teniamos">
       <created>1524629526256</created>
@@ -324,15 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1524638526204</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Listo Fin Max">
+      <created>1524638805553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524638805553</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7399000" />
+    <option name="totallyTimeSpent" value="8725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -343,7 +352,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -402,7 +411,8 @@
     <MESSAGE value="Esta es la informacion que nosotros teniamos" />
     <MESSAGE value="FindMin" />
     <MESSAGE value="Listo el Find Min" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listo el Find Min" />
+    <MESSAGE value="Listo Fin Max" />
+    <option name="LAST_COMMIT_MESSAGE" value="Listo Fin Max" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,6 +426,27 @@
         <state relative-caret-position="17">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="139" column="20" lean-forward="true" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="method#contains#1;class#BinarySearchTree#0" expanded="false" />
+            <element signature="method#getElement#1;class#BinarySearchTree#0" expanded="false" />
+            <element signature="method#insert#1;class#BinarySearchTree#0" expanded="false" />
+            <element signature="e#2708#2709#0" expanded="true" />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#4164#4165#0" expanded="true" />
+            <element signature="e#4196#4197#0" expanded="true" />
+            <element signature="method#print#1;class#BinarySearchTree#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,30 +477,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pruebas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="method#contains#1;class#BinarySearchTree#0" expanded="false" />
-            <element signature="method#getElement#1;class#BinarySearchTree#0" expanded="false" />
-            <element signature="method#insert#1;class#BinarySearchTree#0" expanded="false" />
-            <element signature="e#2708#2709#0" expanded="true" />
-            <element signature="e#2762#2763#0" expanded="true" />
-            <element signature="e#3799#3800#0" expanded="true" />
-            <element signature="e#3831#3832#0" expanded="true" />
-            <element signature="method#print#1;class#BinarySearchTree#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
