@@ -3,13 +3,7 @@ import BinarySearchTree.BinarySearchTree;
 public class Pruebas {
 
 	public static void main(String[] args) {
-		BST arbol = new BST();
-		arbol.insertar(5, "Hola Mundo");
-		arbol.insertar(4, -1234);
-		arbol.insertar(7, null);
-		arbol.insertar(1, 1);
-		arbol.insertar(9, "asdlkj");
-		arbol.insertar(5, 5);
+
 
 
 		BinarySearchTree<Integer> bt = new BinarySearchTree<Integer>();
@@ -24,7 +18,7 @@ public class Pruebas {
 		bt.print();
 		System.out.println(bt.findMin());
 		System.out.println(bt.findMax());
-		bt.diferencia();
+
 	}
 
 }
