@@ -1,8 +1,9 @@
+package BinarySearchTree;
 
 public class TreeNode<T extends Comparable<T>> {
-    public T data;
-    public TreeNode<T> left;
-    public TreeNode<T> right;
+    private T data;
+    private TreeNode<T> left;
+    private TreeNode<T> right;
 
     public TreeNode(T data) {
         this(data, (TreeNode)null, (TreeNode)null);

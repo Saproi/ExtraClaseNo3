@@ -1,18 +1,24 @@
+package BinarySearchTree;
 
-
+/**
+ *
+ * @param <T>
+ */
 public class BinarySearchTree<T extends Comparable<T>> {
-    public TreeNode<T> root;
-
+    private TreeNode<T> root;
+//----------------------------------------------------//
     public BinarySearchTree()
     {
         this.root = null;
     }
-
+//----------------------------------------------------//
     public TreeNode<T> getRoot()
     {
         return this.root;
     }
 
+
+//----------------------------------------------------//
     public boolean contains(T data)
     {
         return contains(data, this.root);
@@ -34,7 +40,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
         }
         return false;
     }
-
+//----------------------------------------------------//
     public TreeNode<T> getElement(T element)
     {
         return getElement(element, this.root);
@@ -53,7 +59,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
         }
         return getElement(element, node.getLeft());
     }
-
+//----------------------------------------------------//
     public void insert(T data)
     {
         TreeNode<T> nodeAux = new TreeNode(data);
@@ -88,7 +94,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
         }
         return nodeAUX;
     }
-
+//----------------------------------------------------//
     public void remove(T element)
     {
         this.root = remove(element, this.root);
@@ -111,6 +117,22 @@ public class BinarySearchTree<T extends Comparable<T>> {
         return node;
     }
 
+//----------------------------------------------------//
+    public T findMin(){
+        if(this.getRoot()==null)
+        return null;
+        else
+            return finMin(this.root);
+    }
+
+
+    private T finMin(TreeNode node){
+        while(node.getLeft()!=null){
+            return finMin(node.getLeft());
+        }return (T) node.getLeft().getData();
+
+    }
+//----------------------------------------------------//
     public void print()
     {
         print(this.root);
@@ -125,4 +147,5 @@ public class BinarySearchTree<T extends Comparable<T>> {
             print(node.getRight());
         }
     }
+
 }

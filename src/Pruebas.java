@@ -1,3 +1,4 @@
+import BinarySearchTree.BinarySearchTree;
 
 public class Pruebas {
 
@@ -18,8 +19,9 @@ public class Pruebas {
 		bt.insert(4);
 		bt.insert(5);
 		bt.print();
-
-
+		System.out.println("x");
+		bt.remove(2);
+		bt.print();
 	}
 
 }
